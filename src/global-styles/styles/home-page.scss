@@ -49,6 +49,13 @@ body{
                 margin: 2%;
                 background-color: var(--primary-white);
             }
+            .offer:hover{
+                background-color: var(--dark-blue);
+                p{
+                    color: var(--primary-white);
+                }
+                transform: scale(2);
+            }
             ul{
                 margin: 0% 5% 5% 5%;
                 height: 25%;
@@ -71,5 +78,7 @@ body{
                 border: 0px;
             }
         }
+        
+
     }
 }
