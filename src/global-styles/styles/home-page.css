@@ -73,7 +73,6 @@ body #home-page .offers button {
 
 .offer:hover {
   background-color: var(--dark-blue);
-  transform: scale(2);
 }
 .offer:hover p {
   color: var(--primary-white);
