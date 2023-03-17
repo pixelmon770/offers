@@ -49,13 +49,6 @@ body #home-page .offers .offer {
   margin: 2%;
   background-color: var(--primary-white);
 }
-body #home-page .offers .offer:hover {
-  background-color: var(--dark-blue);
-  transform: scale(2);
-}
-body #home-page .offers .offer:hover p {
-  color: var(--primary-white);
-}
 body #home-page .offers ul {
   margin: 0% 5% 5% 5%;
   height: 25%;
@@ -76,4 +69,12 @@ body #home-page .offers button {
   height: 10%;
   border-radius: 12px;
   border: 0px;
+}
+
+.offer:hover {
+  background-color: var(--dark-blue);
+  transform: scale(2);
+}
+.offer:hover p {
+  color: var(--primary-white);
 }/*# sourceMappingURL=home-page.css.map */

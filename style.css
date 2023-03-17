@@ -414,6 +414,14 @@ body #home-page .offers button {
   border: 0px;
 }
 
+.offer:hover {
+  background-color: var(--dark-blue);
+  transform: scale(2);
+}
+.offer:hover p {
+  color: var(--primary-white);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-primary);
