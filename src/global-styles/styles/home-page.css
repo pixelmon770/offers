@@ -72,8 +72,5 @@ body #home-page .offers button {
 }
 
 .offer:hover {
-  background-color: var(--dark-blue);
-}
-.offer:hover p {
-  color: var(--primary-white);
+  background-color: #000;
 }/*# sourceMappingURL=home-page.css.map */
