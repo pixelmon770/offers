@@ -49,6 +49,9 @@ body #home-page .offers .offer {
   margin: 2%;
   background-color: var(--primary-white);
 }
+body #home-page .offers .offer:hover {
+  background-color: #000;
+}
 body #home-page .offers ul {
   margin: 0% 5% 5% 5%;
   height: 25%;
@@ -69,8 +72,4 @@ body #home-page .offers button {
   height: 10%;
   border-radius: 12px;
   border: 0px;
-}
-
-.offer:hover {
-  background-color: #000;
 }/*# sourceMappingURL=home-page.css.map */
